@@ -1,9 +1,11 @@
 import { CardData1 } from "../Data/data";
+import Training from "./Training";
 
 function Characterstics() {
   return (
     <>
-    <div className="p-[120px] bg-bg3 gap-16 flex items-center justify-center">
+    <div className="bg-bg3">
+    <div className="p-[120px] gap-16 flex items-center justify-center flex-wrap">
             {
                 CardData1.map((data, i) => (
                     <div key={i}>
@@ -13,6 +15,8 @@ function Characterstics() {
                     </div>
                 ))
             }
+        </div>
+            <Training/>
         </div>
     </>
   )

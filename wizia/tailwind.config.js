@@ -9,18 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        text1: "#0FF1F6"
+        text1: "#0FF1F6",
+        text2: "#14BCB2"
+      },
+      backgroundColor: {
+        btnColor: "#0FF1F6",
+        bg: "#02242A",
+        bg2: "#07292F",
+        bg3: "#002228"
       },
       fontFamily: {
         Montserrat: '"Work Sans", serif',
         work: '"Work Sans", serif'
       }
-    },
-    backgroundColor: {
-      btnColor: "#0FF1F6",
-      bg: "#02242A",
-      bg2: "#07292F",
-      bg3: "#002228"
     },
     boxShadow: {
       buttonShadow: "rgba(83, 255, 252, 0.2)"
