@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        text1: "#0FF1F6"
+      },
       fontFamily: {
         Montserrat: '"Work Sans", serif',
         work: '"Work Sans", serif'
@@ -15,14 +18,16 @@ export default {
     },
     backgroundColor: {
       btnColor: "#0FF1F6",
-      bg: "#02242A"
+      bg: "#02242A",
+      bg2: "#07292F",
+      bg3: "#002228"
     },
     boxShadow: {
       buttonShadow: "rgba(83, 255, 252, 0.2)"
     },
     border: {
       buttonBorder: "#0FF1F6"
-    },
+    }
   },
   darkMode: "class",
   plugins: [nextui()],
