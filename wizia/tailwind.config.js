@@ -10,7 +10,8 @@ export default {
     extend: {
       colors: {
         text1: "#0FF1F6",
-        text2: "#14BCB2"
+        text2: "#14BCB2",
+        text3: "#0FF1F6"
       },
       backgroundColor: {
         btnColor: "#0FF1F6",

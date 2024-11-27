@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import {FaArrowLeft, FaArrowRight} from 'react-icons/fa'
+import Allocate from './Allocate';
 const slides = [
     {
         img: "quote.png",
@@ -32,7 +33,7 @@ function Testimonial() {
     const {img, title, name, position} = slides[currentIndex];
   return (
     <>
-    <div className='z-40 pt-[90px] pb-20 px-6 md:px-[120px] bg-bg3 flex items-center justify-between'>
+    <div className='z-40 pt-[90px] pb-20 px-6 md:px-[120px] bg-bg3 flex items-center justify-between mb-20'>
         <button className='p-3 rounded-lg text-[#96ACAF] bg-[#96ACAF]/20 hover:text-[#0FF1F6] transition-all hidden md:block' onClick={prevSlide}><FaArrowLeft/></button>
     <div className='flex items-center flex-col'>
         <img src={img} alt="" />
@@ -52,8 +53,7 @@ function Testimonial() {
         </div>
         <button className='p-3 rounded-lg text-[#96ACAF] bg-[#96ACAF]/20 hover:text-[#0FF1F6] transition-all hidden md:block' onClick={nextSlide}><FaArrowRight/></button> 
     </div>
-
-
+    <Allocate/>
     </>
   )
 }
