@@ -1,3 +1,5 @@
+import Starting from "./Starting"
+
 const data = [
     {
         parcentage: "32%",
@@ -33,6 +35,7 @@ function Allocate() {
         </div>
         <img src="/image5.png" className="absolute bottom-0 right-0 md:-z-10 lg:z-0" alt="" />
     </div>
+    <Starting/>
     </>
   )
 }
