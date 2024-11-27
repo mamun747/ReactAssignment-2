@@ -11,4 +11,4 @@ const MobileNav = ({event}) => {
   )
 }
 
-export default MobileNav
+export default MobileNav;
