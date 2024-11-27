@@ -1,3 +1,5 @@
+import Testimonial from "./Testimonial";
+
 function Training() {
     const featuresLeft = [
         "Quick to ramp",
@@ -10,7 +12,7 @@ function Training() {
       ];
   return (
     <>
-    <div className="bg-bg2 py-[32px] lg:py-[144px] mx-6 md:mx-8 lg:mx-[48px] rounded-3xl flex flex-col px-[14px] md:px-0 md:items-center relative">
+    <div className="bg-bg2 py-[32px] md:py-[144px] mx-6 md:mx-8 lg:mx-[48px] rounded-3xl flex flex-col px-[14px] md:px-0 md:items-center relative">
         <div className="z-20">
             <h1 className="font-[600] font-Montserrat text-white text-[28px] md:text-[40px]">Train your aiDR on your...</h1>
             <h4 className="bg-btnColor bg-clip-text text-transparent italic font-[500] text-[28px] md:text-[40px] font-Montserrat pb-6 md:pb-[30px]">prefered email st|</h4>
@@ -40,6 +42,7 @@ function Training() {
 
     <img src="/image4.png" className="absolute right-0 md:left-0 bg-bg2 bottom-0" alt="" />
     </div>
+    <Testimonial/>
     </>
   )
 }
