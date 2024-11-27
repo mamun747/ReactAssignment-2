@@ -5,7 +5,7 @@ function Characterstics() {
   return (
     <>
     <div className="bg-bg3">
-    <div className="p-6 md:p-10 lg:p-[120px] gap-16 flex items-center justify-center flex-wrap">
+    <div className="p-6 md:p-10 lg:p-[120px] gap-16 flex items-start justify-center flex-wrap">
             {
                 CardData1.map((data, i) => (
                     <div key={i}>

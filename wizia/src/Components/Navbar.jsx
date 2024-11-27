@@ -15,17 +15,17 @@ function NavigationBar() {
         </div>
         <div>
           <ul className="flex gap-4 text-[#fff] font-work">
-            <li>
-              <a href="#">About Us</a>
+            <li className="hover:animate-pulse">
+              <a href="#" className="hover:text-text2 transition-all">About Us</a>
             </li>
-            <li>
-              <a href="#">Pricing</a>
+            <li className="hover:animate-pulse">
+              <a href="#" className="hover:text-text2 transition-all">Pricing</a>
             </li>
-            <li>
-              <a href="#">Customers</a>
+            <li className="hover:animate-pulse">
+              <a href="#" className="hover:text-text2 transition-all">Customers</a>
             </li>
-            <li>
-              <a href="#">Solutions</a>
+            <li className="hover:animate-pulse">
+              <a href="#" className="hover:text-text2 transition-all">Solutions</a>
             </li>
           </ul>
         </div>
