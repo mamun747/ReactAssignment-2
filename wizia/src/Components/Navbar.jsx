@@ -38,7 +38,7 @@ function NavigationBar() {
 
       <div className="flex md:hidden justify-between px-5 py-6">
         <img src="/Logo.png" alt="" />
-        <button onClick={toggleMenu}>
+        <button onClick={toggleMenu} className="hover:scale-125 transition-all">
           <img src="/ph_list.png" alt="" />
         </button>
       </div>
