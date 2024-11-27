@@ -42,7 +42,7 @@ function NavigationBar() {
           <img src="/ph_list.png" alt="" />
         </button>
       </div>
-      {isMenuOpen ? <MobileNav/> : null}
+      {isMenuOpen ? <MobileNav event={isMenuOpen}/> : null}
     </nav>
   );
 }

@@ -1,4 +1,4 @@
-const MobileNav = () => {
+const MobileNav = ({event}) => {
   return (
     <>
     <ul className="text-white pl-5 space-y-1 pb-3 md:hidden">
